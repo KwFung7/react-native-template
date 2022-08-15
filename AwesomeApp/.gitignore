@@ -29,6 +29,9 @@ build/
 local.properties
 *.iml
 *.hprof
+*.aab
+*.apk
+output-metadata.json
 
 # node.js
 #
@@ -41,6 +44,7 @@ buck-out/
 \.buckd/
 *.keystore
 !debug.keystore
+*.jks
 
 # fastlane
 #

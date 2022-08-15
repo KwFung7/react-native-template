@@ -3,11 +3,23 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
+    "android:dev": "ENVFILE=.env.dev react-native run-android  --appId com.awesome.member.dev --variant=devDebug",
+    "ios:dev": "ENVFILE=.env.dev react-native run-ios  --scheme AwesomeAppDev",
+    "start:dev": "react-native start  --reset-cache",
+    "android:uat": "ENVFILE=.env.uat react-native run-android  --appId com.member.uat --variant=uatRelease",
+    "ios:uat": "ENVFILE=.env.uat react-native run-ios  --scheme AwesomeAppUAT",
+    "start:uat": "ENVFILE=.env.uat react-native start  --reset-cache",
+    "android:prod": "ENVFILE=.env.prod react-native run-android  --appId com.member --variant=prodRelease",
+    "ios:prod": "ENVFILE=.env.prod react-native run-ios  --scheme AwesomeAppProd",
+    "start:prod": "ENVFILE=.env.prod react-native start  --reset-cache",
+    "clean:android": "cd android && ./gradlew clean && ./gradlew cleanBuildCache",
+    "clean:cache": "watchman watch-del-all && rm -rf node_modules/ &&  rm -rf $TMPDIR/react-native-packager-cache-* && rm -rf $TMPDIR/metro-bundler-cache-* && yarn cache clean && yarn install && cd android && ./gradlew clean && ./gradlew cleanBuildCache && cd ../ios && pod install && cd ..",
+    "ios:install": "cd ios && pod install && cd ..",
+    "android:build:dev": "cd android && ./gradlew clean bundleDevRelease && cd ..",
+    "android:build:uat": "cd android && ./gradlew clean bundleUatRelease && cd ..",
+    "android:build:prod": "cd android && ./gradlew clean bundleProdRelease && cd ..",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint . --ext .jsx"
   },
   "dependencies": {
     "react": "17.0.2",
