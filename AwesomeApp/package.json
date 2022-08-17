@@ -19,11 +19,22 @@
     "android:build:uat": "cd android && ./gradlew clean bundleUatRelease && cd ..",
     "android:build:prod": "cd android && ./gradlew clean bundleProdRelease && cd ..",
     "test": "jest",
-    "lint": "eslint . --ext .jsx"
+    "lint": "eslint --ext .jsx"
   },
   "dependencies": {
+    "axios": "^0.27.2",
+    "i18next": "^21.9.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
     "react": "17.0.2",
-    "react-native": "0.66.3"
+    "react-i18next": "^11.18.4",
+    "react-native": "0.66.3",
+    "react-native-config": "^1.4.6",
+    "react-native-encrypted-storage": "^4.0.2",
+    "react-native-sync-preference": "^1.0.0",
+    "react-redux": "^8.0.2",
+    "react-thunk": "^1.0.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -31,6 +42,7 @@
     "@react-native-community/eslint-config": "^2.0.0",
     "babel-jest": "^26.6.3",
     "eslint": "7.14.0",
+    "eslint-plugin-react-native": "^4.0.0",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.66.2",
     "react-test-renderer": "17.0.2"
