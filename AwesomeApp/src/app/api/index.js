@@ -1,4 +1,4 @@
-import axios from '../util/axios/index';
+import axios from '../util/axios';
 
 const _post = (endpoint, requestData) => {
   return new Promise((resolve, reject) => {

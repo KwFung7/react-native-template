@@ -1,111 +1,42 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
 import React from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import { Provider } from 'react-redux';
+import store from './src/app/store/index';
+import { NavigationContainer } from '@react-navigation/native';
+import RootNavigator from './src/app/navigator/index.jsx';
+import { Host } from 'react-native-portalize';
+import './src/app/util/i18n/index';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-const Section = ({children, title}) => {
-  const isDarkMode = useColorScheme() === 'dark';
-  return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
-  );
-};
-
-const App = () => {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
+const App = props => {
+  const routeNameRef = React.useRef();
+  const navigationRef = React.useRef();
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.js</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <Provider store={store}>
+      <NavigationContainer
+        ref={navigationRef}
+        onReady={() => {
+          routeNameRef.current = navigationRef.current.getCurrentRoute().name;
+        }}
+        onStateChange={async () => {
+          const previousRouteName = routeNameRef.current;
+          const currentRouteName = navigationRef.current.getCurrentRoute().name;
+
+          console.log('Previous Route Name: ' + previousRouteName);
+          console.log('Current Route Name: ' + currentRouteName);
+          if (previousRouteName !== currentRouteName) {
+            // await analytics().logScreenView({
+            //   screen_name: currentRouteName,
+            //   screen_class: currentRouteName,
+            // });
+          }
+          routeNameRef.current = currentRouteName;
+        }}>
+        <Host>
+          <RootNavigator />
+        </Host>
+      </NavigationContainer>
+    </Provider>
   );
 };
-
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
 
 export default App;
