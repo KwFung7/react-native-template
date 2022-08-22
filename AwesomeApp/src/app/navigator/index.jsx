@@ -8,7 +8,7 @@ const Stack = createStackNavigator();
 
 const Router = props => {
 
-  console.log(NAVIGATION);
+  // console.log(NAVIGATION);
 
   return (
     <Stack.Navigator

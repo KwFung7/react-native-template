@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { StatusBar, Platform, TouchableOpacity } from 'react-native';
 import * as CONSTANT from '../../constant/index';
 
-import { LeftButonImgExit, LeftButonImgBack, LeftBtnImage, NavSafeAreaView, NavBarView, TitleView, TitleText, HandleView } from './style';
+import { LeftBtnImage, NavSafeAreaView, NavBarView, TitleView, TitleText, HandleView } from './style';
 
 export default function NavigationHeaderBar(props) {
 
@@ -27,13 +27,13 @@ export default function NavigationHeaderBar(props) {
     color = CONSTANT.COLORS.BLACK,
     TopStatusBar = StatusBarShape,
     isShowleftButton = true,
-    isShowRightButton = false,
+    // isShowRightButton = false,
     leftButtonIcon,
     leftButtonIconType = 'Exit',
     onPress = () => navigation.goBack(),
   } = props;
 
-  const [LeftBtnIcon, setLeftBtnIcon] = useState();
+  const [LeftBtnIcon] = useState();
 
   useEffect(() => {
     // if (leftButtonIconType === 'Exit') {
