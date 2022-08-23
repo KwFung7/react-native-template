@@ -138,7 +138,7 @@ android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
-        applicationId "com.awesomeapp"
+        applicationId "com"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -160,6 +160,37 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+        release {
+            if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
+                storeFile file(MYAPP_RELEASE_STORE_FILE)
+                storePassword MYAPP_RELEASE_STORE_PASSWORD
+                keyAlias MYAPP_RELEASE_KEY_ALIAS
+                keyPassword MYAPP_RELEASE_KEY_PASSWORD
+                v1SigningEnabled true
+                v2SigningEnabled true
+            }
+        }
+    }
+    flavorDimensions "default"
+    productFlavors {
+        dev {
+            dimension "default"
+            applicationIdSuffix ".awesome.member.dev"
+            versionCode 1
+            versionName "0.0.1"
+        }
+        uat {
+            dimension "default"
+            applicationIdSuffix ".member.uat"
+            versionCode 1
+            versionName "0.0.1"
+        }
+        prod {
+            dimension "default"
+            applicationIdSuffix ".member"
+            versionCode 1
+            versionName "0.0.1"
+        }
     }
     buildTypes {
         debug {
@@ -173,7 +204,7 @@ android {
         release {
             // Caution! In production, you need to generate your own keystore file.
             // see https://reactnative.dev/docs/signed-apk-android.
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
