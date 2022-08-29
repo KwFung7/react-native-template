@@ -9,26 +9,26 @@
 /* Begin PBXBuildFile section */
 		0026D00428BC92BD0029222D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		0026D00528BC92BD0029222D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		0026D00728BC92BD0029222D /* libPods-AwesomeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6FFC850197443A009AA09 /* libPods-AwesomeApp.a */; };
 		0026D00928BC92BD0029222D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		0026D00A28BC92BD0029222D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		0026D01728BC92F80029222D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		0026D01828BC92F80029222D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		0026D01A28BC92F80029222D /* libPods-AwesomeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6FFC850197443A009AA09 /* libPods-AwesomeApp.a */; };
 		0026D01C28BC92F80029222D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		0026D01D28BC92F80029222D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		0026D02A28BC93240029222D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		0026D02B28BC93240029222D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		0026D02D28BC93240029222D /* libPods-AwesomeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6FFC850197443A009AA09 /* libPods-AwesomeApp.a */; };
 		0026D02F28BC93240029222D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		0026D03028BC93240029222D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		00E356F31AD99517003FC87E /* AwesomeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AwesomeAppTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		46A45911FA3568CB2FE58397 /* libPods-AwesomeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6FFC850197443A009AA09 /* libPods-AwesomeApp.a */; };
-		525E46D9CC6574FD9346B552 /* libPods-AwesomeApp-AwesomeAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B0C27FA8AEC961A6B9BF0E /* libPods-AwesomeApp-AwesomeAppTests.a */; };
+		19AD6E7EEF19E8296A5375FF /* libPods-App-AwesomeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF732F2A7A51B10BA912BB75 /* libPods-App-AwesomeApp.a */; };
+		2ED4794E2243C2436D23EDC2 /* libPods-App-AwesomeAppProd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B71D6231A943BA8939D4A8 /* libPods-App-AwesomeAppProd.a */; };
+		6D0E0CEDE2D0F8DAE11E398E /* libPods-App-AwesomeAppUat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A30EDA92A5CE9FB01A58E9E9 /* libPods-App-AwesomeAppUat.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		96A6FA8FDEF9FF6B6803DFEF /* libPods-App-AwesomeAppDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E724F04696E420A904E0CF7C /* libPods-App-AwesomeAppDev.a */; };
+		B262F272E3F1BE5D99840128 /* libPods-App-AwesomeAppProd-AwesomeAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B4210E160CAEC6408B3EEC /* libPods-App-AwesomeAppProd-AwesomeAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,12 +57,25 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AwesomeApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AwesomeApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeApp/main.m; sourceTree = "<group>"; };
+		26EA368DC3A02E5DBBA5DD1B /* Pods-App-AwesomeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-AwesomeApp.debug.xcconfig"; path = "Target Support Files/Pods-App-AwesomeApp/Pods-App-AwesomeApp.debug.xcconfig"; sourceTree = "<group>"; };
 		287908B3EA3545E93B30E287 /* Pods-AwesomeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeApp.release.xcconfig"; path = "Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp.release.xcconfig"; sourceTree = "<group>"; };
-		54C6FFC850197443A009AA09 /* libPods-AwesomeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwesomeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4D955AE4F53D603AFBE9DE /* Pods-App-AwesomeAppProd-AwesomeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-AwesomeAppProd-AwesomeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-App-AwesomeAppProd-AwesomeAppTests/Pods-App-AwesomeAppProd-AwesomeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		63D8BA29E60FD6FFD3140D81 /* Pods-AwesomeApp-AwesomeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeApp-AwesomeAppTests.release.xcconfig"; path = "Target Support Files/Pods-AwesomeApp-AwesomeAppTests/Pods-AwesomeApp-AwesomeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8138AF360763E2463F4814F5 /* Pods-App-AwesomeAppProd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-AwesomeAppProd.debug.xcconfig"; path = "Target Support Files/Pods-App-AwesomeAppProd/Pods-App-AwesomeAppProd.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AwesomeApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		94B0C27FA8AEC961A6B9BF0E /* libPods-AwesomeApp-AwesomeAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwesomeApp-AwesomeAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2C6AD14DFEE5E731095837 /* Pods-App-AwesomeAppProd-AwesomeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-AwesomeAppProd-AwesomeAppTests.release.xcconfig"; path = "Target Support Files/Pods-App-AwesomeAppProd-AwesomeAppTests/Pods-App-AwesomeAppProd-AwesomeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A07B458895EC661C753B6D32 /* Pods-App-AwesomeAppProd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-AwesomeAppProd.release.xcconfig"; path = "Target Support Files/Pods-App-AwesomeAppProd/Pods-App-AwesomeAppProd.release.xcconfig"; sourceTree = "<group>"; };
+		A30EDA92A5CE9FB01A58E9E9 /* libPods-App-AwesomeAppUat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App-AwesomeAppUat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B4210E160CAEC6408B3EEC /* libPods-App-AwesomeAppProd-AwesomeAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App-AwesomeAppProd-AwesomeAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD51C9BA446BAB62FF5E980 /* Pods-App-AwesomeAppUat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-AwesomeAppUat.release.xcconfig"; path = "Target Support Files/Pods-App-AwesomeAppUat/Pods-App-AwesomeAppUat.release.xcconfig"; sourceTree = "<group>"; };
+		AEB116429C274B85B44613DF /* Pods-App-AwesomeAppDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-AwesomeAppDev.debug.xcconfig"; path = "Target Support Files/Pods-App-AwesomeAppDev/Pods-App-AwesomeAppDev.debug.xcconfig"; sourceTree = "<group>"; };
+		B63009FFBAB828CDFD7766BF /* Pods-App-AwesomeAppDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-AwesomeAppDev.release.xcconfig"; path = "Target Support Files/Pods-App-AwesomeAppDev/Pods-App-AwesomeAppDev.release.xcconfig"; sourceTree = "<group>"; };
 		BB12487F95289C68997BFF5A /* Pods-AwesomeApp-AwesomeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeApp-AwesomeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeApp-AwesomeAppTests/Pods-AwesomeApp-AwesomeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7EE3585265E8F36086BE438 /* Pods-App-AwesomeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-AwesomeApp.release.xcconfig"; path = "Target Support Files/Pods-App-AwesomeApp/Pods-App-AwesomeApp.release.xcconfig"; sourceTree = "<group>"; };
+		CF732F2A7A51B10BA912BB75 /* libPods-App-AwesomeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App-AwesomeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86D734CCC27671C7E8D7492 /* Pods-App-AwesomeAppUat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-AwesomeAppUat.debug.xcconfig"; path = "Target Support Files/Pods-App-AwesomeAppUat/Pods-App-AwesomeAppUat.debug.xcconfig"; sourceTree = "<group>"; };
+		E3B71D6231A943BA8939D4A8 /* libPods-App-AwesomeAppProd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App-AwesomeAppProd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E724F04696E420A904E0CF7C /* libPods-App-AwesomeAppDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-App-AwesomeAppDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85DB4F71FBDDCCD06AB42D2 /* Pods-AwesomeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeApp.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -72,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0026D00728BC92BD0029222D /* libPods-AwesomeApp.a in Frameworks */,
+				96A6FA8FDEF9FF6B6803DFEF /* libPods-App-AwesomeAppDev.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0026D01A28BC92F80029222D /* libPods-AwesomeApp.a in Frameworks */,
+				6D0E0CEDE2D0F8DAE11E398E /* libPods-App-AwesomeAppUat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0026D02D28BC93240029222D /* libPods-AwesomeApp.a in Frameworks */,
+				2ED4794E2243C2436D23EDC2 /* libPods-App-AwesomeAppProd.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				525E46D9CC6574FD9346B552 /* libPods-AwesomeApp-AwesomeAppTests.a in Frameworks */,
+				B262F272E3F1BE5D99840128 /* libPods-App-AwesomeAppProd-AwesomeAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A45911FA3568CB2FE58397 /* libPods-AwesomeApp.a in Frameworks */,
+				19AD6E7EEF19E8296A5375FF /* libPods-App-AwesomeApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,8 +158,11 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				54C6FFC850197443A009AA09 /* libPods-AwesomeApp.a */,
-				94B0C27FA8AEC961A6B9BF0E /* libPods-AwesomeApp-AwesomeAppTests.a */,
+				CF732F2A7A51B10BA912BB75 /* libPods-App-AwesomeApp.a */,
+				E724F04696E420A904E0CF7C /* libPods-App-AwesomeAppDev.a */,
+				E3B71D6231A943BA8939D4A8 /* libPods-App-AwesomeAppProd.a */,
+				A6B4210E160CAEC6408B3EEC /* libPods-App-AwesomeAppProd-AwesomeAppTests.a */,
+				A30EDA92A5CE9FB01A58E9E9 /* libPods-App-AwesomeAppUat.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,6 +174,16 @@
 				287908B3EA3545E93B30E287 /* Pods-AwesomeApp.release.xcconfig */,
 				BB12487F95289C68997BFF5A /* Pods-AwesomeApp-AwesomeAppTests.debug.xcconfig */,
 				63D8BA29E60FD6FFD3140D81 /* Pods-AwesomeApp-AwesomeAppTests.release.xcconfig */,
+				26EA368DC3A02E5DBBA5DD1B /* Pods-App-AwesomeApp.debug.xcconfig */,
+				C7EE3585265E8F36086BE438 /* Pods-App-AwesomeApp.release.xcconfig */,
+				AEB116429C274B85B44613DF /* Pods-App-AwesomeAppDev.debug.xcconfig */,
+				B63009FFBAB828CDFD7766BF /* Pods-App-AwesomeAppDev.release.xcconfig */,
+				8138AF360763E2463F4814F5 /* Pods-App-AwesomeAppProd.debug.xcconfig */,
+				A07B458895EC661C753B6D32 /* Pods-App-AwesomeAppProd.release.xcconfig */,
+				2A4D955AE4F53D603AFBE9DE /* Pods-App-AwesomeAppProd-AwesomeAppTests.debug.xcconfig */,
+				9E2C6AD14DFEE5E731095837 /* Pods-App-AwesomeAppProd-AwesomeAppTests.release.xcconfig */,
+				D86D734CCC27671C7E8D7492 /* Pods-App-AwesomeAppUat.debug.xcconfig */,
+				AAD51C9BA446BAB62FF5E980 /* Pods-App-AwesomeAppUat.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -412,7 +438,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AwesomeApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-App-AwesomeAppDev-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -458,15 +484,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppDev/Pods-App-AwesomeAppDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppDev/Pods-App-AwesomeAppDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppDev/Pods-App-AwesomeAppDev-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0026D00D28BC92BD0029222D /* [CP] Copy Pods Resources */ = {
@@ -475,15 +501,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppDev/Pods-App-AwesomeAppDev-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppDev/Pods-App-AwesomeAppDev-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppDev/Pods-App-AwesomeAppDev-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0026D01428BC92F80029222D /* [CP] Check Pods Manifest.lock */ = {
@@ -501,7 +527,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AwesomeApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-App-AwesomeAppUat-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -547,15 +573,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppUat/Pods-App-AwesomeAppUat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppUat/Pods-App-AwesomeAppUat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppUat/Pods-App-AwesomeAppUat-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0026D02028BC92F80029222D /* [CP] Copy Pods Resources */ = {
@@ -564,15 +590,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppUat/Pods-App-AwesomeAppUat-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppUat/Pods-App-AwesomeAppUat-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppUat/Pods-App-AwesomeAppUat-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0026D02728BC93240029222D /* [CP] Check Pods Manifest.lock */ = {
@@ -590,7 +616,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AwesomeApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-App-AwesomeAppProd-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -636,15 +662,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppProd/Pods-App-AwesomeAppProd-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppProd/Pods-App-AwesomeAppProd-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppProd/Pods-App-AwesomeAppProd-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0026D03328BC93240029222D /* [CP] Copy Pods Resources */ = {
@@ -653,15 +679,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppProd/Pods-App-AwesomeAppProd-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppProd/Pods-App-AwesomeAppProd-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppProd/Pods-App-AwesomeAppProd-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
@@ -684,15 +710,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeApp/Pods-App-AwesomeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeApp/Pods-App-AwesomeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeApp/Pods-App-AwesomeApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		32642B1955BA18B16FB2A399 /* [CP] Copy Pods Resources */ = {
@@ -701,15 +727,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeApp/Pods-App-AwesomeApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeApp/Pods-App-AwesomeApp-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeApp/Pods-App-AwesomeApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6D3C218454EF5DD3512587B3 /* [CP] Copy Pods Resources */ = {
@@ -718,15 +744,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp-AwesomeAppTests/Pods-AwesomeApp-AwesomeAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppProd-AwesomeAppTests/Pods-App-AwesomeAppProd-AwesomeAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp-AwesomeAppTests/Pods-AwesomeApp-AwesomeAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppProd-AwesomeAppTests/Pods-App-AwesomeAppProd-AwesomeAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp-AwesomeAppTests/Pods-AwesomeApp-AwesomeAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppProd-AwesomeAppTests/Pods-App-AwesomeAppProd-AwesomeAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6E768B1AFE4FBA4B7B7DBEAC /* [CP] Check Pods Manifest.lock */ = {
@@ -744,7 +770,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AwesomeApp-AwesomeAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-App-AwesomeAppProd-AwesomeAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -757,15 +783,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp-AwesomeAppTests/Pods-AwesomeApp-AwesomeAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppProd-AwesomeAppTests/Pods-App-AwesomeAppProd-AwesomeAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp-AwesomeAppTests/Pods-AwesomeApp-AwesomeAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppProd-AwesomeAppTests/Pods-App-AwesomeAppProd-AwesomeAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeApp-AwesomeAppTests/Pods-AwesomeApp-AwesomeAppTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App-AwesomeAppProd-AwesomeAppTests/Pods-App-AwesomeAppProd-AwesomeAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BEDD42CD78BC403C7ECF7D0B /* [CP] Check Pods Manifest.lock */ = {
@@ -783,7 +809,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AwesomeApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-App-AwesomeApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -869,7 +895,7 @@
 /* Begin XCBuildConfiguration section */
 		0026D00F28BC92BD0029222D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E85DB4F71FBDDCCD06AB42D2 /* Pods-AwesomeApp.debug.xcconfig */;
+			baseConfigurationReference = AEB116429C274B85B44613DF /* Pods-App-AwesomeAppDev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -899,7 +925,7 @@
 		};
 		0026D01028BC92BD0029222D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 287908B3EA3545E93B30E287 /* Pods-AwesomeApp.release.xcconfig */;
+			baseConfigurationReference = B63009FFBAB828CDFD7766BF /* Pods-App-AwesomeAppDev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -927,7 +953,7 @@
 		};
 		0026D02228BC92F80029222D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E85DB4F71FBDDCCD06AB42D2 /* Pods-AwesomeApp.debug.xcconfig */;
+			baseConfigurationReference = D86D734CCC27671C7E8D7492 /* Pods-App-AwesomeAppUat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -957,7 +983,7 @@
 		};
 		0026D02328BC92F80029222D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 287908B3EA3545E93B30E287 /* Pods-AwesomeApp.release.xcconfig */;
+			baseConfigurationReference = AAD51C9BA446BAB62FF5E980 /* Pods-App-AwesomeAppUat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -985,7 +1011,7 @@
 		};
 		0026D03528BC93240029222D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E85DB4F71FBDDCCD06AB42D2 /* Pods-AwesomeApp.debug.xcconfig */;
+			baseConfigurationReference = 8138AF360763E2463F4814F5 /* Pods-App-AwesomeAppProd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1015,7 +1041,7 @@
 		};
 		0026D03628BC93240029222D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 287908B3EA3545E93B30E287 /* Pods-AwesomeApp.release.xcconfig */;
+			baseConfigurationReference = A07B458895EC661C753B6D32 /* Pods-App-AwesomeAppProd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1043,7 +1069,7 @@
 		};
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB12487F95289C68997BFF5A /* Pods-AwesomeApp-AwesomeAppTests.debug.xcconfig */;
+			baseConfigurationReference = 2A4D955AE4F53D603AFBE9DE /* Pods-App-AwesomeAppProd-AwesomeAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1070,7 +1096,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63D8BA29E60FD6FFD3140D81 /* Pods-AwesomeApp-AwesomeAppTests.release.xcconfig */;
+			baseConfigurationReference = 9E2C6AD14DFEE5E731095837 /* Pods-App-AwesomeAppProd-AwesomeAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1094,7 +1120,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E85DB4F71FBDDCCD06AB42D2 /* Pods-AwesomeApp.debug.xcconfig */;
+			baseConfigurationReference = 26EA368DC3A02E5DBBA5DD1B /* Pods-App-AwesomeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1124,7 +1150,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 287908B3EA3545E93B30E287 /* Pods-AwesomeApp.release.xcconfig */;
+			baseConfigurationReference = C7EE3585265E8F36086BE438 /* Pods-App-AwesomeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

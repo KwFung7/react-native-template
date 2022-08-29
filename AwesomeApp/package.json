@@ -7,7 +7,7 @@
     "ios:dev": "ENVFILE=.env.dev react-native run-ios --scheme AwesomeAppDev",
     "start:dev": "react-native start --reset-cache",
     "android:uat": "ENVFILE=.env.uat react-native run-android --appId com.member.uat --variant=uatRelease",
-    "ios:uat": "ENVFILE=.env.uat react-native run-ios --scheme AwesomeAppUAT",
+    "ios:uat": "ENVFILE=.env.uat react-native run-ios --scheme AwesomeAppUat",
     "start:uat": "ENVFILE=.env.uat react-native start --reset-cache",
     "android:prod": "ENVFILE=.env.prod react-native run-android --appId com.member --variant=prodRelease",
     "ios:prod": "ENVFILE=.env.prod react-native run-ios --scheme AwesomeAppProd",
