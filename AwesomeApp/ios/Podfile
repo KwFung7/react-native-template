@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '11.0'
 
-target 'AwesomeApp' do
+abstract_target 'App' do
   config = use_native_modules!
 
   use_react_native!(
@@ -12,9 +12,29 @@ target 'AwesomeApp' do
     :hermes_enabled => false
   )
 
-  target 'AwesomeAppTests' do
+  target 'AwesomeAppProd' do
+
+    # Productcion-specific Pods
+
+    target 'AwesomeAppTests' do
+      inherit! :complete
+      # Pods for testing
+    end
+  end
+
+  target 'AwesomeAppDev' do
     inherit! :complete
-    # Pods for testing
+    # Dev-specific Pods
+  end
+
+  target 'AwesomeAppUat' do
+    inherit! :complete
+    # Uat-specific Pods
+  end
+
+  target 'AwesomeApp' do
+    inherit! :complete
+    # Dev-specific Pods
   end
 
   # Enables Flipper.
