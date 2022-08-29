@@ -2,6 +2,12 @@ export const SYNC_PREFERENCE = {
   LANGUAGE: 'language',
 };
 
+export const BIOMETRIC_AUTH_STATUS = {
+  DISABLED: 'Disabled',
+  FACE_ID: 'FaceID',
+  TOUCH_ID: 'TouchID',
+};
+
 export const COLORS = {
   BACKGROUND_GREY: '#F3F5F6',
   BLACK: '#000000',
