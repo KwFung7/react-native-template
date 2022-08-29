@@ -176,18 +176,21 @@ android {
         dev {
             dimension "default"
             applicationIdSuffix ".awesome.member.dev"
+            resValue "string", "app_name", "AwesomeApp DEV"
             versionCode 1
             versionName "0.0.1"
         }
         uat {
             dimension "default"
             applicationIdSuffix ".member.uat"
+            resValue "string", "app_name", "AwesomeApp UAT"
             versionCode 1
             versionName "0.0.1"
         }
         prod {
             dimension "default"
             applicationIdSuffix ".member"
+            resValue "string", "app_name", "AwesomeApp"
             versionCode 1
             versionName "0.0.1"
         }
