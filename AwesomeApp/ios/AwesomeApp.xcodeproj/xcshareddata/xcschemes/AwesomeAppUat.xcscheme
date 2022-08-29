@@ -23,9 +23,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "AwesomeApp.app"
-               BlueprintName = "AwesomeApp"
+               BlueprintIdentifier = "0026D01328BC92F80029222D"
+               BuildableName = "AwesomeAppUat.app"
+               BlueprintName = "AwesomeAppUat"
                ReferencedContainer = "container:AwesomeApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -53,9 +53,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AwesomeApp.app"
-            BlueprintName = "AwesomeApp"
+            BlueprintIdentifier = "0026D01328BC92F80029222D"
+            BuildableName = "AwesomeAppUat.app"
+            BlueprintName = "AwesomeAppUat"
             ReferencedContainer = "container:AwesomeApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -70,9 +70,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AwesomeApp.app"
-            BlueprintName = "AwesomeApp"
+            BlueprintIdentifier = "0026D01328BC92F80029222D"
+            BuildableName = "AwesomeAppUat.app"
+            BlueprintName = "AwesomeAppUat"
             ReferencedContainer = "container:AwesomeApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
